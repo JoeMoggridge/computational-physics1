@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1351811837 source:c:\users\jo\google drive\programming\exercise 2\problem 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1352654072 source:c:\users\jo\google drive\programming\exercise 2\problem 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

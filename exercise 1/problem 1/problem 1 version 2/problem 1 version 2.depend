@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1350762136 source:c:\users\jo\google drive\programming\exersise1\problem 1\problem 1 version 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

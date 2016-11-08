@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1355435659 source:c:\users\jo\google drive 2\google drive\programming\exercise 4\problem 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<errno.h>
+
+1355488462 source:u:\downloads\ex 4 problem_1-2012-12-14\problem 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<errno.h>
+
+1355599479 source:c:\users\jo\google drive 2\google drive\programming\exercise 4\problem 1 v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<errno.h>
+
+1356100718 source:c:\users\jo\google drive\programming\exercise 4\problem 1 v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<errno.h>
+

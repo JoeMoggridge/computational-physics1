@@ -1,0 +1,48 @@
+// prototype program to output plottable data to a file
+
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+
+void create_plot(double *eqn, double eqn_order, double lwr, double uppr, double ncrmnt)
+{
+    FILE *plot;
+    char filename[20]= "plot_data_""_DATE_"
+    plot= fopen(filename ,"w"); .// create a file for writng to.
+    if (plot!=NULL )// check that the file was actually opened
+    {
+        double x=lwr;
+        double fx=0;
+        while (x<uppr)
+        {
+            //output x
+            fprintf(plot, "lf\t",x)
+
+            //calculate fx
+            int k=eqn_order;
+            int i=0;
+            while (k>=0)
+            {
+                fx= fx +eqn[i]*pow(x, k);
+                k--;
+                i++;
+            }
+            //output fx
+            fprintf(plot, "lf\n",fx)
+
+            //move on
+            x=x+ncrmnt;
+        }
+        fclose(plot);
+        printf("data has been written to file");
+    }
+    else
+        printf("file was not created succesfully");
+
+return ();
+
+}
+int main()
+{
+    create plot ();
+}
